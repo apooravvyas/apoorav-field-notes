@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-25 (X sharing polish)
+- Added canonical, Open Graph and X card metadata with a branded 1200 × 630 preview image.
+- Marked the share image as a sample preview so it matches the live demo-data state.
+
 ## 2026-09-25 (first-run polish)
 - Personalised the title, tagline and About copy for Apoorav.
 - Made sample counts explicit in the tag list, graph, post panel and screen-reader labels; clarified the sample notice and About note.

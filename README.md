@@ -4,6 +4,8 @@ A static, read-only site that maps posts by recurring **themes** (what a post is
 
 **Current state:** The site uses clearly labelled sample posts because no real posts have been imported yet. The real-posts file is intentionally empty. Imported posts stay in a private review inbox and are not shown on the site until you choose to publish them.
 
+**Sharing preview:** The homepage has Open Graph and X card metadata. `public/social-card.png` is the 1200 × 630 preview image; `public/social-card.svg` is its editable source. The card is marked as a sample preview while the site uses demo data.
+
 ## Apoorav: the next step, in plain English
 
 When X says your archive is ready, download it and unzip it on this Mac. Keep the ZIP and extracted folder here; they include account data you should not upload to a chat or the public site. Then return to this Codex task and tell me the extracted folder’s name. I can run the local importer, make a simple review list, and leave every post unpublished until you choose what to include. The importer reads only the post and account files needed to build your post links.
