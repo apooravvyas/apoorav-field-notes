@@ -1,0 +1,26 @@
+node_modules/
+dist/
+dist-single/
+.DS_Store
+*.log
+
+# --- Private X / Twitter archive data: never commit ---
+# Unzip your archive OUTSIDE this repo, or into ./archive/ (ignored).
+archive/
+x-archive/
+twitter-*/
+twitter-*.zip
+*.zip
+**/data/tweets.js
+**/data/tweet.js
+**/data/note-tweet.js
+**/data/direct-messages*.js
+**/data/account.js
+# Importer output: every post from the archive, before you choose what to publish.
+content/x-inbox.json
+content/*-inbox.json
+.env
+.env.*
+
+# Vercel project metadata
+.vercel/

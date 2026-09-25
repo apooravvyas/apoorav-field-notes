@@ -1,0 +1,24 @@
+{
+  "themes": [
+    { "id": "ai-tools", "label": "AI tools", "color": "mist" },
+    { "id": "community", "label": "community", "color": "sage" },
+    { "id": "events", "label": "events", "color": "rose" },
+    { "id": "building-in-public", "label": "building in public", "color": "lavender" },
+    { "id": "web3", "label": "web3", "color": "mist" },
+    { "id": "writing", "label": "writing", "color": "rose" },
+    { "id": "india-tech", "label": "India tech", "color": "wheat" },
+    { "id": "go-to-market", "label": "go-to-market", "color": "sage" },
+    { "id": "reading", "label": "reading", "color": "lavender" },
+    { "id": "product", "label": "product", "color": "clay" },
+    { "id": "cities", "label": "cities", "color": "wheat" },
+    { "id": "habits", "label": "habits", "color": "sage" }
+  ],
+  "tones": [
+    { "id": "reflective", "label": "reflective", "color": "lavender", "description": "Looking back, thinking out loud." },
+    { "id": "practical", "label": "practical", "color": "sage", "description": "Steps, tactics, how-to." },
+    { "id": "playful", "label": "playful", "color": "rose", "description": "Jokes, asides, light takes." },
+    { "id": "contrarian", "label": "contrarian", "color": "clay", "description": "Pushing against the usual take." },
+    { "id": "curious", "label": "curious", "color": "mist", "description": "Open questions, half-formed ideas." },
+    { "id": "earnest", "label": "earnest", "color": "wheat", "description": "Plainly sincere." }
+  ]
+}

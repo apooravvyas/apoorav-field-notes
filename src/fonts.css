@@ -1,0 +1,22 @@
+/* Self-hosted (via @fontsource, SIL OFL). Latin subset only to keep the payload small. */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('../node_modules/@fontsource-variable/fraunces/files/fraunces-latin-soft-italic.woff2') format('woff2-variations');
+}
+@font-face {
+  font-family: 'Source Serif';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 900;
+  src: url('../node_modules/@fontsource-variable/source-serif-4/files/source-serif-4-latin-standard-normal.woff2') format('woff2-variations');
+}
+@font-face {
+  font-family: 'Source Serif';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 200 900;
+  src: url('../node_modules/@fontsource-variable/source-serif-4/files/source-serif-4-latin-standard-italic.woff2') format('woff2-variations');
+}

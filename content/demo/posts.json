@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "sample": true,
+  "_note": "SAMPLE DATA for previewing the layout. These posts are placeholders written for the demo, not real posts by the site owner.",
+  "posts": [
+    {
+      "id": "sample:01",
+      "platform": "x",
+      "url": "",
+      "text": "Tried running a meetup with no talks at all. Just three questions on a whiteboard and tables of six. People stayed an hour past the end time.",
+      "publishedAt": "2026-01-08T10:12:00Z",
+      "themes": [
+        "events",
+        "community"
+      ],
+      "tones": [
+        "reflective",
+        "practical"
+      ]
+    },
+    {
+      "id": "sample:02",
+      "platform": "x",
+      "url": "",
+      "text": "Every AI tool demo looks magical for 90 seconds. The real test is whether you still open it on day nine.",
+      "publishedAt": "2026-01-14T07:40:00Z",
+      "themes": [
+        "ai-tools",
+        "product"
+      ],
+      "tones": [
+        "contrarian"
+      ]
+    },
+    {
+      "id": "sample:03",
+      "platform": "x",
+      "url": "",
+      "text": "A small rule for community calls: the host speaks last. It changes who shows up the next week.",
+      "publishedAt": "2026-01-19T12:05:00Z",
+      "themes": [
+        "community"
+      ],
+      "tones": [
+        "practical"
+      ]
+    },
+    {
+      "id": "sample:04",
+      "platform": "x",
+      "url": "",
+      "text": "Wrote 400 words today that I will probably delete tomorrow. Still counts.",
+      "publishedAt": "2026-01-23T18:30:00Z",
+      "themes": [
+        "writing",
+        "habits"
+      ],
+      "tones": [
+        "playful",
+        "earnest"
+      ]
+    },
+    {
+      "id": "sample:05",
+      "platform": "x",
+      "url": "",
+      "text": "The best go-to-market plan I have seen fit on an index card: who, where they already gather, and what you give them first.",
+      "publishedAt": "2026-02-02T09:00:00Z",
+      "themes": [
+        "go-to-market"
+      ],
+      "tones": [
+        "practical"
+      ]
+    },
+    {
+      "id": "sample:06",
+      "platform": "x",
+      "url": "",
+      "text": "Sample thread: what running twelve small events taught me about turnout.",
+      "publishedAt": "2026-02-06T08:00:00Z",
+      "themes": [
+        "events",
+        "community",
+        "go-to-market"
+      ],
+      "tones": [
+        "practical",
+        "reflective"
+      ],
+      "threadId": "sample:thread-t1",
+      "sequence": 1
+    },
+    {
+      "id": "sample:07",
+      "platform": "x",
+      "url": "",
+      "text": "1. The invite copy matters less than who forwards it. A warm forward beats a perfect poster.",
+      "publishedAt": "2026-02-06T08:01:00Z",
+      "themes": [
+        "events",
+        "go-to-market"
+      ],
+      "tones": [
+        "practical"
+      ],
+      "threadId": "sample:thread-t1",
+      "sequence": 2
+    },
+    {
+      "id": "sample:08",
+      "platform": "x",
+      "url": "",
+      "text": "2. Pick a room that is slightly too small. Half-empty rooms kill conversation.",
+      "publishedAt": "2026-02-06T08:02:00Z",
+      "themes": [
+        "events",
+        "cities"
+      ],
+      "tones": [
+        "practical",
+        "playful"
+      ],
+      "threadId": "sample:thread-t1",
+      "sequence": 3
+    },
+    {
+      "id": "sample:09",
+      "platform": "x",
+      "url": "",
+      "text": "Is a builder community a product, a media company, or a club? Some days it is all three before lunch.",
+      "publishedAt": "2026-02-11T11:20:00Z",
+      "themes": [
+        "community",
+        "product"
+      ],
+      "tones": [
+        "curious"
+      ]
+    },
+    {
+      "id": "sample:10",
+      "platform": "x",
+      "url": "",
+      "text": "Shipping the ugly version in public was less scary than keeping the polished version in drafts for a month.",
+      "publishedAt": "2026-02-17T15:45:00Z",
+      "themes": [
+        "building-in-public",
+        "product"
+      ],
+      "tones": [
+        "reflective",
+        "earnest"
+      ]
+    },
+    {
+      "id": "sample:11",
+      "platform": "x",
+      "url": "",
+      "text": "Onchain identity will matter when it saves someone a form, not when it earns them a badge.",
+      "publishedAt": "2026-02-24T06:50:00Z",
+      "themes": [
+        "web3",
+        "product"
+      ],
+      "tones": [
+        "contrarian"
+      ]
+    },
+    {
+      "id": "sample:12",
+      "platform": "x",
+      "url": "",
+      "text": "Bangalore traffic has done more for podcast listening than any growth team ever could.",
+      "publishedAt": "2026-03-01T13:10:00Z",
+      "themes": [
+        "cities",
+        "india-tech"
+      ],
+      "tones": [
+        "playful"
+      ]
+    },
+    {
+      "id": "sample:13",
+      "platform": "x",
+      "url": "",
+      "text": "Reading list this month is all old books about new problems. Somehow they hold up better than the threads.",
+      "publishedAt": "2026-03-06T20:15:00Z",
+      "themes": [
+        "reading"
+      ],
+      "tones": [
+        "reflective",
+        "playful"
+      ]
+    },
+    {
+      "id": "sample:14",
+      "platform": "x",
+      "url": "",
+      "text": "If your community only talks when you post, it is an audience. Nothing wrong with that, just name it honestly.",
+      "publishedAt": "2026-03-12T09:30:00Z",
+      "themes": [
+        "community"
+      ],
+      "tones": [
+        "contrarian",
+        "earnest"
+      ]
+    },
+    {
+      "id": "sample:15",
+      "platform": "x",
+      "url": "",
+      "text": "Using an AI agent to prep event run-sheets. It gets 80% right and the other 20% is where all the taste lives.",
+      "publishedAt": "2026-03-18T10:00:00Z",
+      "themes": [
+        "ai-tools",
+        "events"
+      ],
+      "tones": [
+        "practical",
+        "curious"
+      ]
+    },
+    {
+      "id": "sample:16",
+      "platform": "x",
+      "url": "",
+      "text": "Indian founders are building for the next hundred million users with tools priced for the first ten million. That gap is the opportunity.",
+      "publishedAt": "2026-03-25T04:40:00Z",
+      "themes": [
+        "india-tech",
+        "go-to-market"
+      ],
+      "tones": [
+        "curious"
+      ]
+    },
+    {
+      "id": "sample:17",
+      "platform": "x",
+      "url": "",
+      "text": "Monthly revenue update, posted publicly for the sixth time. The number is small; the habit is the point.",
+      "publishedAt": "2026-04-02T16:00:00Z",
+      "themes": [
+        "building-in-public",
+        "habits"
+      ],
+      "tones": [
+        "earnest"
+      ]
+    },
+    {
+      "id": "sample:18",
+      "platform": "x",
+      "url": "",
+      "text": "Hot take: most web3 events would be better as a dinner for twenty.",
+      "publishedAt": "2026-04-09T19:25:00Z",
+      "themes": [
+        "web3",
+        "events"
+      ],
+      "tones": [
+        "contrarian",
+        "playful"
+      ]
+    },
+    {
+      "id": "sample:19",
+      "platform": "x",
+      "url": "",
+      "text": "What would a newsletter look like if every issue answered one reader question and nothing else?",
+      "publishedAt": "2026-04-15T08:10:00Z",
+      "themes": [
+        "writing"
+      ],
+      "tones": [
+        "curious"
+      ]
+    },
+    {
+      "id": "sample:20",
+      "platform": "x",
+      "url": "",
+      "text": "Morning pages, a walk, then email. Three weeks in and the walk is doing most of the work.",
+      "publishedAt": "2026-04-22T05:55:00Z",
+      "themes": [
+        "habits"
+      ],
+      "tones": [
+        "reflective"
+      ]
+    },
+    {
+      "id": "sample:21",
+      "platform": "x",
+      "url": "",
+      "text": "A photo from last night's session. Full room, bad lighting, great questions.",
+      "publishedAt": "2026-05-03T17:40:00Z",
+      "themes": [
+        "events",
+        "community"
+      ],
+      "tones": [
+        "earnest"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "url": "./media/sample-missing-photo.jpg",
+          "alt": "Sample image that is intentionally missing, to preview the unavailable-media state"
+        }
+      ]
+    },
+    {
+      "id": "sample:22",
+      "platform": "x",
+      "url": "",
+      "text": "Half the AI products I test are a prompt and a nice font. The other half quietly change how a team works.",
+      "publishedAt": "2026-05-12T11:00:00Z",
+      "themes": [
+        "ai-tools"
+      ],
+      "tones": []
+    },
+    {
+      "id": "sample:23",
+      "platform": "x",
+      "url": "",
+      "text": "Mumbai has the best informal tech scene I know: everyone is between two meetings and happy to grab chai in the gap.",
+      "publishedAt": "2026-05-20T10:30:00Z",
+      "themes": [
+        "cities",
+        "india-tech",
+        "community"
+      ],
+      "tones": [
+        "playful",
+        "reflective"
+      ]
+    },
+    {
+      "id": "sample:substack-01",
+      "platform": "substack",
+      "url": "",
+      "title": "Sample essay: why small rooms beat big stages",
+      "excerpt": "A longer piece that stitches together the event notes from this sample set. Substack entries can carry a real title and an excerpt.",
+      "text": "A longer piece that stitches together the event notes from this sample set.",
+      "publishedAt": "2026-05-28T07:00:00Z",
+      "themes": [
+        "events",
+        "community",
+        "writing"
+      ],
+      "tones": [
+        "reflective",
+        "earnest"
+      ]
+    }
+  ]
+}

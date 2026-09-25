@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#F5F0E3" />
+    <meta name="description" content="Apoorav’s writing, mapped by recurring themes and tone." />
+    <title>Apoorav’s Field Notes</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='11' cy='13' r='7' fill='%23E6BAC1' stroke='%232B2622'/%3E%3Ccircle cx='22' cy='20' r='6' fill='%23BACAA9' stroke='%232B2622'/%3E%3Cpath d='M16 15.5l2.5 1.8' stroke='%232B2622'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <a class="skip-link" href="#tag-list">Skip to tag list</a>
+
+    <header class="topbar" id="topbar">
+      <button class="icon-btn" id="menu-btn" type="button" aria-controls="rail" aria-expanded="true">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h10M4 17h13" /></svg>
+        <span class="sr-only" id="menu-btn-label">Hide tag list</span>
+      </button>
+
+      <div class="brand">
+        <a class="wordmark" id="site-title" href="./">Apoorav’s Field Notes</a>
+        <span class="tagline" id="site-tagline"></span>
+      </div>
+
+      <div class="lens-tabs" role="group" aria-label="Graph lens">
+        <button type="button" class="lens-tab" data-lens="themes" aria-pressed="true">Themes</button>
+        <button type="button" class="lens-tab" data-lens="tones" aria-pressed="false">Tone</button>
+      </div>
+
+      <div class="header-actions">
+        <form class="search" id="search-form" role="search">
+          <label class="sr-only" for="search-input">Search themes and posts</label>
+          <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="M16 16l4 4" /></svg>
+          <input id="search-input" type="search" placeholder="Search themes and posts" autocomplete="off" spellcheck="false" enterkeyhint="search" />
+          <button type="button" class="search-clear" id="search-clear" aria-label="Clear search" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17" /></svg>
+          </button>
+        </form>
+        <button class="icon-btn mobile-only" id="search-toggle" type="button" aria-controls="search-form" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="M16 16l4 4" /></svg>
+          <span class="sr-only">Search</span>
+        </button>
+        <button class="text-btn" id="about-btn" type="button" aria-haspopup="dialog">About</button>
+      </div>
+    </header>
+
+    <main class="layout" id="layout">
+      <aside class="rail" id="rail" aria-labelledby="rail-title">
+        <div class="rail-head">
+          <div>
+            <h2 class="rail-title" id="rail-title">Themes</h2>
+            <p class="rail-stats" id="rail-stats"></p>
+          </div>
+          <button class="icon-btn mobile-only" id="rail-close" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17" /></svg>
+            <span class="sr-only">Close tag list</span>
+          </button>
+        </div>
+        <ul class="tag-list" id="tag-list" tabindex="-1" aria-label="Tags"></ul>
+        <p class="rail-empty" id="rail-empty" hidden></p>
+        <div class="rail-foot" id="rail-foot"></div>
+        <nav class="rail-links" id="rail-links" aria-label="Profiles" hidden></nav>
+      </aside>
+
+      <div class="scrim" id="scrim" hidden></div>
+
+      <section class="stage" id="stage" aria-label="Graph">
+        <p class="sample-banner" id="sample-banner" hidden></p>
+        <div class="graph" id="graph"></div>
+        <div class="stage-message" id="stage-message" role="status" hidden></div>
+
+        <div class="legend" id="legend" aria-label="How to read the graph">
+          <span class="legend-item">
+            <svg viewBox="0 0 34 20" aria-hidden="true"><circle cx="7" cy="10" r="4.5" /><circle cx="24" cy="10" r="8.5" /></svg>
+            size = posts with the tag
+          </span>
+          <span class="legend-item">
+            <svg viewBox="0 0 34 20" aria-hidden="true"><path d="M3 10h28" /></svg>
+            line = tags on the same post
+          </span>
+        </div>
+
+        <div class="zoom-controls" role="group" aria-label="Zoom">
+          <button type="button" class="icon-btn" id="zoom-in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6v12M6 12h12" /></svg><span class="sr-only">Zoom in</span></button>
+          <button type="button" class="icon-btn" id="zoom-out"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12" /></svg><span class="sr-only">Zoom out</span></button>
+          <button type="button" class="icon-btn" id="zoom-fit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9V5h4M15 5h4v4M19 15v4h-4M9 19H5v-4" /></svg><span class="sr-only">Fit graph to screen</span></button>
+        </div>
+
+        <p class="hint" id="hint" aria-hidden="true">scroll or pinch to zoom · drag a circle · select one to read</p>
+      </section>
+
+      <aside class="panel" id="panel" aria-labelledby="panel-title" hidden>
+        <header class="panel-head">
+          <div class="panel-heading">
+            <p class="panel-kicker" id="panel-kicker"></p>
+            <h2 class="panel-title" id="panel-title" tabindex="-1"></h2>
+            <p class="panel-meta" id="panel-meta"></p>
+          </div>
+          <button class="icon-btn" id="panel-close" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17" /></svg>
+            <span class="sr-only">Close posts</span>
+          </button>
+        </header>
+        <div class="panel-body" id="panel-body"></div>
+      </aside>
+    </main>
+
+    <dialog class="about" id="about" aria-labelledby="about-title">
+      <form method="dialog" class="about-inner">
+        <button class="icon-btn about-close" value="close" aria-label="Close">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17" /></svg>
+        </button>
+        <h2 class="about-title" id="about-title"></h2>
+        <p class="about-intro" id="about-intro"></p>
+        <p class="about-links" id="about-links"></p>
+        <h3>Reading the graph</h3>
+        <ul class="about-list">
+          <li><strong>Themes</strong> are what a post is about; <strong>Tone</strong> is how it is written.</li>
+          <li>A circle's size is the number of distinct posts with that tag.</li>
+          <li>A line joins two tags that appear on the same post. Thicker lines mean they share more posts.</li>
+          <li>A post can carry several tags, so tag counts overlap.</li>
+        </ul>
+        <p class="about-note" id="about-note"></p>
+      </form>
+    </dialog>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
